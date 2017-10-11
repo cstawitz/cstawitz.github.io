@@ -32,11 +32,15 @@
 
         var aboutDiv = document.getElementById("about");
 
+        var publicationsDiv = document.getElementById("publications");
+
         var homeListItem = document.getElementById("liHome");
 
         var aboutListItem = document.getElementById("liAbout");
 
         var researchListItem = document.getElementById("liResearch");
+
+        var publicationListItem = document.getElementById("liPublications");
 
 
 
@@ -46,11 +50,15 @@
 
             researchDiv.style.display = "none";
 
+            publicationsDiv.style.display = "none";
+
             homeListItem.className = "old_item";
 
             researchListItem.className= "old_item";
 
             aboutListItem.className = "current_page_item";
+
+            publicationListItem.className = "old_item";
 
         }
 
@@ -60,11 +68,15 @@
 
             aboutDiv.style.display = "none";
 
+            publicationsDiv.style.display = "none";
+
             homeListItem.className = "current_page_item";
 
             researchListItem.className = "old_item";
 
             aboutListItem.className = "old_item";
+
+            publicationListItem.className = "old_item";
 
         }
 
@@ -74,11 +86,33 @@
 
             aboutDiv.style.display = "none";
 
+            publicationsDiv.style.display = "none";
+
             homeListItem.className = "old_item";
 
             researchListItem.className = "current_page_item";
 
             aboutListItem.className = "old_item";
+
+            publicationListItem.className = "old_item";
+
+        }
+
+        if (showHideDiv == "publications") {
+
+            homeDiv.style.display = "none";
+
+            aboutDiv.style.display = "none";
+
+            publicationsDiv.style.display = "none";
+
+            homeListItem.className = "old_item";
+
+            researchListItem.className = "old_item";
+
+            aboutListItem.className = "old_item";
+
+            publicationListItem.className = "current_page_item";
 
         }
 
@@ -194,7 +228,7 @@
 
                                         Seattle, WA 98115<br />
 
-                                        <a href="mailto:christine.stawitz@noaa.gov">christine.stawitz@noaa.gov</a><br/> 
+                                        <a href="mailto:christine.stawitz@noaa.gov">christine.stawitz@noaa.gov</a><br/> <br/>
 
                                         </p> 
 
@@ -238,7 +272,7 @@
 
                                 </td>
 
-                                <td><h2 style="float: right;" class="title">postdoctoral research </h2><p>
+                                <td><h2 style="float: right;" class="title">postdoctoral research</h2><p>
                                 I'm working on an individual-based model (using the DisMELS framework) to predict how anticipated changes in ocean pH and temperatures will affect Alaska snow crab (<i>Chinoecetes opilio</i>) in the Bering Sea. The model incorporates stage-structure and spatial considerations, and we plan to combing modeled impacts on larval through juvenile stages of crab from experimental results with output from a regional ocean model of the Bering Sea that provides fine-resolution projections of changing pH and temperature.
 
                                 </br></br>The most recent version of my CV (10/2017) is <a href="http://cstawitz.github.io/docs/CCS_Resume.pdf">here.</a><br/>
