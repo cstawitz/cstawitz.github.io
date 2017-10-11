@@ -193,7 +193,7 @@ a:hover {
 /* Page */
 
 #page {
-	width: 860px;
+	width: 900px;
 	margin: 0 auto;
 	padding: 0;
 	background-color: #FFFFFF;
@@ -211,7 +211,7 @@ a:hover {
 
 #content {
 	float: left;
-	width: 860px;
+	width: 900px;
 	border: #000000;
 	padding: 0px 0px 0px 0px;
 	font-size: 14px
